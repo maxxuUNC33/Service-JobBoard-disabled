@@ -1,5 +1,3 @@
-# README writing
-
 # HackNC Project: Job Board for the disable
 
 Backend: Spring boot, H2 database
@@ -40,3 +38,15 @@ Password: `password`
 
 - Figure out how to run sql command on initial run
   - reason: .db file will not commit
+
+---
+
+# Resources
+
+[Spring Boot Thymeleaf Tutorial For Beginners - YouTube](https://www.youtube.com/watch?v=hoVUmn8ZCOo)
+
+[Introduction to Using Thymeleaf in Spring | Baeldung](https://www.baeldung.com/thymeleaf-in-spring-mvc)
+
+[Spring Boot With H2 Database | Baeldung](https://www.baeldung.com/spring-boot-h2-database)
+
+[Getting Started | Building a RESTful Web Service (spring.io)](https://spring.io/guides/gs/rest-service/)
