@@ -13,7 +13,7 @@ public class WebController {
 
     @GetMapping("/job_card")
     public String jobCardPage() {
-        return "job-card";
+        return "job_card";
     }
 
     @GetMapping("/g_auth")
