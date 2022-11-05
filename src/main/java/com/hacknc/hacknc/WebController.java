@@ -15,4 +15,9 @@ public class WebController {
     public String jobCardPage() {
         return "job-card";
     }
+
+    @GetMapping("/homepage")
+    public String homepage() {
+        return "homepage";
+    }
 }
