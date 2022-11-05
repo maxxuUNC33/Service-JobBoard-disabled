@@ -16,9 +16,9 @@ public class WebController {
         return "job-card";
     }
 
-    @GetMapping("/home_page")
+    @GetMapping("/g_auth")
     public String homepage() {
-        return "home_page";
+        return "g_auth";
     }
 
     @GetMapping("/job_list")
