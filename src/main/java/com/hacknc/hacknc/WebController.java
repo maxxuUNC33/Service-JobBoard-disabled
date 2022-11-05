@@ -11,13 +11,18 @@ public class WebController {
         return "form";
     }
 
-    @GetMapping("/job-card")
+    @GetMapping("/job_card")
     public String jobCardPage() {
         return "job-card";
     }
 
-    @GetMapping("/homepage")
+    @GetMapping("/home_page")
     public String homepage() {
-        return "homepage";
+        return "home_page";
+    }
+
+    @GetMapping("/job_list")
+    public String jobList() {
+        return "job_list";
     }
 }
