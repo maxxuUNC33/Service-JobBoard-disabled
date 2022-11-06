@@ -20,15 +20,17 @@ Frontend: thymleaf, Bootstrap
 
 1, The application should just run in Intellij after all the dependency in `pom.xml` is loaded
 
-2, Go to browser: http://localhost:8080
+2, Run the Spirngboot Project
 
-3, Exposing stage: http://localhost:8080/form
+3, Open browser: http://localhost:8080
 
-4, Searching stage: http://localhost:8080/job_cards
+4, Exposing stage: http://localhost:8080/form
 
-5, Connecting stage: http://localhost:8080/job_list
+5, Searching stage: http://localhost:8080/job_cards
 
-6, Deciding stage: http://localhost:8080/offer
+6, Connecting stage: http://localhost:8080/job_list
+
+7, Deciding stage: http://localhost:8080/offer
 
 ## H2 Database console
 
