@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Offers</title>
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+    <link href="./offer.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark" style="background:#87A5C4">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" href="./">Home</a>
+        <a class="navbar-brand" href="./job_cards">Job Cards</a>
+        <a class="navbar-brand" href="./job_list">Job Lists</a>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid">
+                    <h1 class="mt-4">Offers</h1>
+                    
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <i class="fas fa-table me-1"></i>
+                        </div>
+                        <div class="card-body">
+                            <table id="datatablesSimple">
+                                <thead>
+                                    <tr>
+                                        <th>Company Name</th>
+                                        <th>Position</th>
+                                        <th>Location</th>
+                                        <th>Work Hour (hours/per week)</th>
+                                        <th>Salary ($)</th>
+                                    </tr>
+                                </thead>
+                                <tfoot>
+                                    <tr>
+                                        <th>Company Name</th>
+                                        <th>Position</th>
+                                        <th>Location</th>
+                                        <th>Work Hour (hours/per week)</th>
+                                        <th>Salary ($)</th>
+                                    </tr>
+                                </tfoot>
+                                <tbody>
+                                    <tr>
+                                        <td>Smith Library</td>
+                                        <td>Library Custodian</td>
+                                        <td>Greensboro,NC</td>
+                                        <td>40</td>
+                                        <td>14-16/hr</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Red Roof Inn</td>
+                                        <td>Hotel Front Desk</td>
+                                        <td>Asheville,NC</td>
+
+                                        <td>20</td>
+                                        <td>15-16/hr</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NordStrom</td>
+                                        <td>Mall Security Guard</td>
+                                        <td>Durham,NC</td>
+
+                                        <td>20</td>
+                                        <td>13-16/hr</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lance Corp</td>
+                                        <td>Janitor</td>
+                                        <td>Cary,NC</td>
+
+                                        <td>30</td>
+                                        <td>12-16/hr</td>
+                                    </tr>
+                                    <tr>
+                                        <td>StoreSmart</td>
+                                        <td>Self Storage Manager</td>
+                                        <td>Wilkesboro,NC</td>
+
+                                        <td>40</td>
+                                        <td>16/hr</td>
+                                    </tr>
+                                    
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="./offer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+    <script src="./datatables-simple-demo.js"></script>
+</body>
+
+</html>

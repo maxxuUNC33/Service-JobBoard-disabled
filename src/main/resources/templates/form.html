@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>HackNC_Form_page</title>
+    <title>My typeform</title>
     <style>
         * {
             margin: 0;
@@ -25,7 +25,21 @@
 </head>
 
 <body>
-    <div id="wrapper" data-tf-widget="GVVKlhJE" data-tf-inline-on-mobile data-tf-medium="snippet"></div>
-    <script src="https://embed.typeform.com/next/embed.js"></script>
+<div id="wrapper" data-tf-widget="MsIEPFtW" data-tf-inline-on-mobile data-tf-medium="snippet"></div>
+
+
+<script src="https://embed.typeform.com/next/embed.js"></script>
+<script>
+    document.addEventListener('keyup', (event) => {
+        const keyName = event.key;
+
+        // As the user releases the Ctrl key, the key is no longer active,
+        // so event.ctrlKey is false.
+        if (keyName === 'Shift') {
+            window.location.href = "./job_cards";
+        }
+    });
+</script>
 </body>
+
 </html>
