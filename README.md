@@ -18,7 +18,17 @@ Frontend: thymleaf, Bootstrap
 
 ## Running the Application
 
-The application should just run in Intellij after all the dependency in `pom.xml` is loaded
+1, The application should just run in Intellij after all the dependency in `pom.xml` is loaded
+
+2, Go to browser: localhost:8080
+
+3, Exposing stage: http://localhost:8080/form
+
+4, Searching stage: http://localhost:8080/job_cards
+
+5, Connecting stage: http://localhost:8080/job_list
+
+6, Deciding stage: http://localhost:8080/offer
 
 ## H2 Database console
 
