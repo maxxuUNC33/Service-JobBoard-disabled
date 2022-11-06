@@ -11,9 +11,9 @@ public class WebController {
         return "form";
     }
 
-    @GetMapping("/job_card")
-    public String jobCardPage() {
-        return "job_card";
+    @GetMapping("/job_cards")
+    public String jobCards() {
+        return "job_cards";
     }
 
     @GetMapping("/g_auth")
@@ -24,5 +24,10 @@ public class WebController {
     @GetMapping("/job_list")
     public String jobList() {
         return "job_list";
+    }
+
+    @GetMapping("/offer")
+    public String offerPage() {
+        return "offer";
     }
 }
