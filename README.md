@@ -20,7 +20,7 @@ Frontend: thymleaf, Bootstrap
 
 1, The application should just run in Intellij after all the dependency in `pom.xml` is loaded
 
-2, Go to browser: localhost:8080
+2, Go to browser: http://localhost:8080
 
 3, Exposing stage: http://localhost:8080/form
 
