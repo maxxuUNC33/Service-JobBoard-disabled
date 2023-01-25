@@ -4,6 +4,9 @@ Backend: Spring boot, H2 database
 
 Frontend: thymleaf, Bootstrap
 
+Snapshot of Interface:
+![JobCardUI](Interface Design.png)
+
 ## Ideas
 
 - jobs for disability: depression? OCD? 洁癖? Mental Illness
