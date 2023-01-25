@@ -5,7 +5,7 @@ Backend: Spring boot, H2 database
 Frontend: thymleaf, Bootstrap
 
 Snapshot of Interface:
-![JobCardUI](Interface Design.png)
+![]("Interface Design.png")
 
 ## Ideas
 
