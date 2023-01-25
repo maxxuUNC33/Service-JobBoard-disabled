@@ -5,7 +5,8 @@ Backend: Spring boot, H2 database
 Frontend: thymleaf, Bootstrap
 
 Snapshot of Interface:
-![]("Interface Design.png")
+![SnapShot](Interface-Design.png)
+
 
 ## Ideas
 
