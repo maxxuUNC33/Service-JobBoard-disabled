@@ -6,6 +6,8 @@ Frontend: thymleaf, Bootstrap
 
 Snapshot of Interface:
 ![SnapShot](Interface-Design.png)
+Snapshot of HomePage:
+![SnapShot](hackathon-frontpage.png)
 
 
 ## Ideas
